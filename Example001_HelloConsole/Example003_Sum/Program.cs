@@ -1,3 +1,6 @@
-﻿int namberA = 12;
-int namberB = 5;
-Console.WriteLine(namberA / namberB);
+﻿int namberA = new Random() .Next(1, 10); // 1 2 3 ... 9
+Console.WriteLine(namberA);
+int namberB = new Random() .Next(1, 10);
+Console.WriteLine(namberB);
+int result = namberA + namberB;
+Console.WriteLine(result);
